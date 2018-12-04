@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.acceptAlert()
 
-WebUI.acceptAlert()
+WebUI.authenticate('', '', '', 0)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject(null))
 
