@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_History</name>
+   <name>a_Login - Copy</name>
    <tag></tag>
-   <elementGuidId>aef24c0a-5831-4c1b-a7ad-d50bd98e4f0f</elementGuidId>
+   <elementGuidId>00b87072-5e42-4fbb-a0e3-fb3ffc0b216c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;sidebar-wrapper&quot;]/ul/li[3]/a</value>
+         <value>(//a[@onclick='$(&quot;#menu-close&quot;).click();'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-nav&quot;]/li[3]/a[1][count(. | //a[@href = 'history.php#history' and (text() = 'History' or . = 'History')]) = count(//a[@href = 'history.php#history' and (text() = 'History' or . = 'History')])]</value>
+         <value>//a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>history.php#history</value>
+      <value>profile.php#login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,10 +42,10 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>History</value>
+      <value>Login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -67,7 +67,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>//a[contains(text(),'History')]</value>
+      <value>//a[contains(text(),'Login')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,19 +85,19 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, 'history.php#history')]</value>
+      <value>//a[contains(@href, 'profile.php#login')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
