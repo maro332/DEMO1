@@ -6,12 +6,12 @@
    <elementGuidId>00b87072-5e42-4fbb-a0e3-fb3ffc0b216c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@onclick='$(&quot;#menu-close&quot;).click();'])[3]</value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Login' or . = 'Login')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
+         <key>XPATH</key>
+         <value>(//a[@onclick='$(&quot;#menu-close&quot;).click();'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
