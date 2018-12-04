@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Login' or . = 'Login')]</value>
+         <value>//a[@href = 'profile.php#login' and @onclick = '$(&quot;#menu-close&quot;).click();' and (text() = 'Login' or . = 'Login')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -24,14 +24,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>profile.php#login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
