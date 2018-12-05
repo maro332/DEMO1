@@ -19,3 +19,5 @@ WebUI.authenticate('', '', '', 0)
 
 WebUI.click(findTestObject(null))
 
+WebUI.back()
+
