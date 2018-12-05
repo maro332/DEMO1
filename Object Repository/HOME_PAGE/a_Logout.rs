@@ -6,25 +6,12 @@
    <elementGuidId>df73045d-7d73-4b40-ba0a-e747301483a9</elementGuidId>
    <selectorCollection>
       <entry>
-<<<<<<< HEAD
-         <key>XPATH</key>
-         <value>(//a[@onclick='$(&quot;#menu-close&quot;).click();'])[5]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//a[@href = 'authenticate.php?logout' and @onclick = '$(&quot;#menu-close&quot;).click();' and (text() = 'Logout' or . = 'Logout')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-=======
-         <key>BASIC</key>
-         <value>//a[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]</value>
+         <value>//a[(text() = 'Logout' or . = 'Logout')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//a[@onclick='$(&quot;#menu-close&quot;).click();'])[5]</value>
->>>>>>> branch 'master' of https://github.com/maro332/DEMO1.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -37,14 +24,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>authenticate.php?logout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
