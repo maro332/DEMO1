@@ -4,7 +4,21 @@
    <name>a_Logout</name>
    <tag></tag>
    <elementGuidId>df73045d-7d73-4b40-ba0a-e747301483a9</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick='$(&quot;#menu-close&quot;).click();'])[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'authenticate.php?logout' and @onclick = '$(&quot;#menu-close&quot;).click();' and (text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,7 +35,7 @@
       <value>authenticate.php?logout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
